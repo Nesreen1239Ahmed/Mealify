@@ -1,0 +1,839 @@
+/* xs */
+@media all and (min-width:0px) and (max-width:600px) {
+    .container {
+        /* background-color: plum; */
+    }
+
+    /* ======== Start navbar ============== */
+
+    .navbar .container {
+        width: 100%;
+    }
+
+    .contant-navbar ul {
+        width: 100%;
+
+    }
+
+    h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .contant-navbar li a {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /* ======== End navbar ============== */
+
+
+    /* ============ Start Header================== */
+
+
+    .header .container {
+        width: 100%;
+    }
+
+    .part-container {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .header-content {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    /* =======End Header ============= */
+
+
+    /* =========== Start Chefs ============ */
+
+    .chefs .container {
+        width: 95%;
+    }
+
+    .chefs .chefs-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .chefs .chefs-cards .card {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    /* =========== End Chefs ============ */
+
+
+    /* ============= Start gallery =========== */
+    .gallery-photos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:nowrap;
+        column-gap: 10px;
+        row-gap: 10px;
+       height: auto;
+    }
+    picture {
+        width: calc(100%);
+        
+        
+    }
+
+    /* ============= End gallery =========== */
+
+
+
+
+    /* ============ Start Contant ============ */
+
+
+    .contact .container {
+        width: 100%;
+    }
+
+    .contact-detalis .parent-flex {
+        display: block;
+
+    }
+
+    .address,
+    .email,
+    .phone,
+    .opening-hours {
+        width: 100%;
+
+    }
+
+    .parent-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .input-name,
+    .input-email {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    /* ============ End Contant ============ */
+
+
+    /* ============ Start Footer ============= */
+    .footer {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .about img {
+        width: 6%;
+
+    }
+
+    .footer .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .about,
+    .subscribe,
+    .contact-details {
+        width: 100%;
+    }
+
+    .subscribe-group input,
+    .subscribe-group button {
+        width: 98%;
+        margin: 10px auto;
+
+
+    }
+
+    /* ============ End Footer ============= */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* sm */
+@media all and (min-width:601px) and (max-width:768px) {
+
+    .container {
+        /* background-color: powderblue; */
+    }
+
+    /* ======== Start navbar ============== */
+
+    .navbar .container {
+        width: 100%;
+    }
+
+    .contant-navbar ul {
+        width: 50%;
+
+    }
+
+    h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .contant-navbar li a {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /* ======== End navbar ============== */
+
+
+
+    /* ============ Start Header================== */
+
+
+    .header .container {
+        width: 100%;
+    }
+
+    .part-container {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .header-content {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-content .btn .btn-book {
+
+        padding: 10px 15px;
+        margin-right: 10px;
+
+    }
+
+    .header-content .btn .btn-video {
+        display: flex;
+        align-items: center;
+    }
+
+
+    /* =======End Header ============= */
+
+
+    /* =========== Start Chefs ============ */
+
+    .chefs .container {
+        width: 90%;
+    }
+
+    .chefs .chefs-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .chefs .chefs-cards .card {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    /* =========== End Chefs ============ */
+
+
+
+
+    /* ============= Start gallery =========== */
+
+    .gallery-photos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:nowrap;
+        column-gap: 10px;
+        row-gap: 10px;
+       height: auto;
+    }
+    picture {
+        width: calc(100%);
+        
+        
+    }
+
+
+    /* ============= End gallery =========== */
+
+
+
+
+
+
+    /* ============ Start Contant ============ */
+
+
+    .contact .container {
+        width: 90%;
+    }
+
+    .contact-detalis .parent-flex {
+        display: block;
+
+    }
+
+    .address,
+    .email,
+    .phone,
+    .opening-hours {
+        width: 100%;
+
+    }
+
+    .parent-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .input-name,
+    .input-email {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    /* ============ End Contant ============ */
+
+
+    /* ============ Start Footer ============= */
+    .footer {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .about img {
+        width: 8%;
+
+    }
+
+
+    .footer .container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .about,
+    .subscribe,
+    .contact-details {
+        width: 100%;
+    }
+
+    .subscribe-group input,
+    .subscribe-group button {
+        width: 98%;
+        margin: 10px auto;
+
+
+    }
+
+    /* ============ End Footer ============= */
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* md */
+
+@media all and (min-width:769px) and (max-width:991px) {
+
+    .container {
+        /* background-color: purple; */
+    }
+
+
+    /* ======== Start navbar ============== */
+
+    .navbar .container {
+        width: 100%;
+    }
+
+    .contant-navbar ul {
+        width: 50%;
+
+    }
+
+    h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .contant-navbar li a {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    /* ======== End navbar ============== */
+
+    /* ============ Start Header================== */
+
+
+    .header .container {
+        width: 90%;
+    }
+
+    .part-container {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .header-content {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-content .btn .btn-book {
+
+        padding: 10px 15px;
+        margin-right: 10px;
+
+    }
+
+    .header-content .btn .btn-video {
+        display: flex;
+        align-items: center;
+    }
+
+
+    /* =======End Header ============= */
+
+
+    /* =========== Start Chefs ============ */
+
+    .chefs .container {
+        width: 90%;
+    }
+
+    .chefs .chefs-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .chefs .chefs-cards .card {
+        width: 48%;
+        /* margin-bottom: 20px; */
+
+    }
+
+    /* =========== End Chefs ============ */
+
+
+    /* ============= Start gallery =========== */
+.gallery .container{
+    width: 95%;
+}
+    .gallery-photos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        column-gap: 15px;
+        row-gap: 15px;
+       height: 85rem;
+    }
+    picture {
+        width: calc(100%/2);
+        
+        
+    }
+
+
+    /* ============= End gallery =========== */
+
+
+
+
+
+    /* ============ Start Contant ============ */
+
+
+    .contact .container {
+        width: 90%;
+    }
+
+    .contact-detalis .parent-flex {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .address,
+    .email,
+    .phone,
+    .opening-hours {
+        width: 49%;
+
+    }
+
+    .parent-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .input-name,
+    .input-email {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    /* ============ End Contant ============ */
+
+
+
+    /* ============ Start Footer ============= */
+    .footer {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .about img {
+        width: 8%;
+
+    }
+
+
+    .footer .container {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+
+
+    }
+
+    .about,
+    .contact-details {
+        width: 48%;
+    }
+
+    .subscribe-group {
+        order: 10;
+
+
+
+    }
+
+    .subscribe-group input,
+    .subscribe-group button {
+        width: 98%;
+        margin: 10px auto;
+
+
+    }
+
+    /* ============ End Footer ============= */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* lg */
+
+@media all and (min-width:992px) and (max-width:1200px) {
+
+    .container {
+        /* background-color: palegreen; */
+    }
+
+
+    /* ======== Start navbar ============== */
+
+    .navbar .container {
+        width: 100%;
+    }
+
+    .contant-navbar ul {
+        width: 50%;
+
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .contant-navbar li a {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    /* ======== End navbar ============== */
+
+
+    /* ============ Start Header================== */
+
+
+    .header .container {
+        width: 95%;
+    }
+
+    .part-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .header-content {
+        width: 100%;
+
+
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+
+
+
+    /* =======End Header ============= */
+
+
+
+    /* =========== Start Chefs ============ */
+
+    .chefs .container {
+        width: 98%;
+    }
+
+    .chefs .chefs-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+
+    .chefs .chefs-cards .card {
+        width: 48%;
+        /* margin-bottom: 20px; */
+
+    }
+
+    /* =========== End Chefs ============ */
+
+
+    /* ============= Start gallery =========== */
+
+    .gallery .container{
+        width: 98%;
+    }
+        .gallery-photos{
+            display: flex;
+            flex-direction: column;
+            flex-wrap:wrap;
+            column-gap: 15px;
+            row-gap: 15px;
+           height: 70rem;
+        }
+        picture {
+            width: calc(100%/3);
+            
+            
+        }
+
+
+    /* ============= End gallery =========== */
+
+
+
+
+
+    /* ============ Start Contant ============ */
+
+
+    .contact .container {
+        width: 95%;
+    }
+
+    .contact-detalis .parent-flex {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .address,
+    .email,
+    .phone,
+    .opening-hours {
+        width: 49%;
+
+    }
+
+    .parent-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .input-name,
+    .input-email {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    /* ============ End Contant ============ */
+
+
+
+
+
+
+    /* ============ Start Footer ============= */
+    .footer {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .about img {
+        width: 13%;
+
+    }
+
+
+    .footer .container {
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+
+
+    }
+
+    .about,
+    .contact-details {
+        width: 48%;
+    }
+
+    .subscribe-group {
+        order: 10;
+
+
+
+    }
+
+    .subscribe-group input,
+    .subscribe-group button {
+        width: 98%;
+        margin: 10px auto;
+
+
+    }
+
+    /* ============ End Footer ============= */
+
+}
+
+
+/* xl */
+
+@media all and (min-width:1201px) {
+
+
+    .container {
+        /* background-color: gold; */
+    }
+
+}
